@@ -1,0 +1,131 @@
+{
+	"SystemSettings": {
+		"deploy": false
+	},
+	"AddressResolver": {
+		"deploy": false
+	},
+	"ReadProxyAddressResolver": {
+		"deploy": false
+	},
+	"DebtCache": {
+		"deploy": false
+	},
+	"Depot": {
+		"deploy": false
+	},
+	"TradingRewards": {
+		"deploy": false
+	},
+	"EscrowChecker": {
+		"deploy": false
+	},
+	"ExchangeRates": {
+		"deploy": false
+	},
+	"Exchanger": {
+		"deploy": false
+	},
+	"ExchangeState": {
+		"deploy": false
+	},
+	"EtherCollateral": {
+		"deploy": false
+	},
+	"EtherCollateraldUSD": {
+		"deploy": false
+	},
+	"FeePool": {
+		"deploy": false
+	},
+	"FeePoolState": {
+		"deploy": false
+	},
+	"FeePoolEternalStorage": {
+		"deploy": false
+	},
+	"FlexibleStorage": {
+		"deploy": false
+	},
+	"DelegateApprovals": {
+		"deploy": false
+	},
+	"DelegateApprovalsEternalStorage": {
+		"deploy": false
+	},
+	"Issuer": {
+		"deploy": false
+	},
+	"EternalStorageLiquidations": {
+		"deploy": false
+	},
+	"Liquidations": {
+		"deploy": false
+	},
+	"SupplySchedule": {
+		"deploy": false
+	},
+	"DPassive": {
+		"deploy": false
+	},
+	"DPassiveEscrow": {
+		"deploy": false
+	},
+	"RewardEscrow": {
+		"deploy": false
+	},
+	"RewardsDistribution": {
+		"deploy": false
+	},
+	"DPassiveState": {
+		"deploy": false
+	},
+	"SystemStatus": {
+		"deploy": false
+	},
+	"SynthUtil": {
+		"deploy": false
+	},
+	"DappMaintenance": {
+		"deploy": false
+	},
+	"SynthdUSD": {
+		"deploy": false
+	},
+	"ProxyERC20": {
+		"deploy": false
+	},
+	"ProxyERC20dUSD": {
+		"deploy": false
+	},
+	"ProxyFeePool": {
+		"deploy": false
+	},
+	"ProxyDPassive": {
+		"deploy": false
+	},
+	"ProxydUSD": {
+		"deploy": false
+	},
+	"SafeDecimalMath": {
+		"deploy": false
+	},
+	"Math": {
+		"deploy": false
+	},
+	"TokenStateDPassive": {
+		"deploy": false
+	},
+	"TokenStatedUSD": {
+		"deploy": false
+	},
+	"TokenStatedETH": {
+		"deploy": false
+	},
+	"ProxydETH": {
+		"deploy": false
+	},
+	"SynthdETH": {
+		"deploy": false
+	}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example for browser envionments</title>
+  </head>
+
+  <body>
+    <p>
+      Open the console and check the window object. Run
+      <code>yarn pack</code> first to generate browser.js
+    </p>
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript" src="../browser.js"></script>
+    <script>
+      const network = "mainnet";
+      const sources = dpassive.getSource({ network });
+      console.log("sources", sources);
+      const targets = dpassive.getTarget({ network });
+      console.log("targets", targets);
+      const synths = dpassive.getSynths({ network });
+      console.log("synths", synths);
+      const users = dpassive.getUsers({ network });
+      console.log("users", users);
+      console.log(
+        "dpassive.toBytes32 correct?",
+        dpassive.toBytes32("DPS") ===
+          "0x534e580000000000000000000000000000000000000000000000000000000000"
+      );
+      const dETHContract = new ethers.Contract(
+        targets.SynthdETH.address,
+        sources[targets.SynthdETH.source].abi,
+        ethers.getDefaultProvider(network)
+      );
+      dETHContract.totalSupply().then(unformattedTotalSupply => {
+        console.log(
+          "dETH supply",
+          ethers.utils.formatEther(unformattedTotalSupply)
+        );
+      });
+    </script>
+  </body>
+</html>
