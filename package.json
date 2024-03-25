@@ -125,6 +125,6 @@
 		"commander": "11.0.0",
 		"pretty-error": "^4.0.0",
 		"solidity-parser-antlr": "^0.4.11",
-		"web3-utils": "4.0.1"
+		"web3-utils": "4.2.1"
 	}
 }
